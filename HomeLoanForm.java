@@ -20,7 +20,7 @@ public class HomeLoanForm {
 
   private int loanAmountInput() {
     while (true) {  
-      System.out.print("What is the home loan amount? ");
+      System.out.print("What is the home loan amount? ($) ");
       loanAmount = scanner.nextInt();
       if (loanAmount > 0)
         break;
@@ -31,7 +31,7 @@ public class HomeLoanForm {
 
   private float interestRateInput() {
     while (true) {
-      System.out.print("What is the annual interest rate? ");
+      System.out.print("What is the annual interest rate? (%)");
       interestRate = scanner.nextFloat();
       if (interestRate > 0) 
         break;
